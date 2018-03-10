@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-lg-12">
+        <nav class="navbar navbar-light bg-faded">
+            <h1 class="navbar-brand mb-0">Navbar</h1>
+        </nav>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-billboard">
+    <div class="img"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="jumbo-font">Mongo Scraper</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class='container'>
+    <div class="main-container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div>
+                    {{#each article}}
+
+
+                    <div class="card">
+                        <div class="card-header">
+                            <p class="jj headline-title">Title:
+                                <span class='title-article'></span>
+                            </p>
+                            <p class="jj card-text">Description:
+                                <span class='content-article'></span>
+                            </p>
+                            <a href="#" class="btn btn-primary">Link:
+                                <span class='link-article'></span>
+                            </a>
+
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
